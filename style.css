@@ -188,13 +188,13 @@ body {
 background-image: linear-gradient(
 rgba(10, 10, 10, 0.9),
 rgba(10, 10, 10, 0.9)
-), url("../images/dj-background.jpg");
+), url("dj-background.jpg");
 
 background-size: cover;
 background-attachment: fixed;
 }
 body {
-background-image: url("../images/dj-background.jpeg");
+background-image: url("dj-background.jpeg");
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
