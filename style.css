@@ -1,0 +1,206 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #111;
+color: white;
+}
+
+header {
+background: linear-gradient(135deg, #16002b, #5b00a8);
+padding: 40px;
+text-align: center;
+border-bottom: 4px solid #b000ff;
+}
+
+header h1 {
+margin: 0;
+font-size: 48px;
+letter-spacing: 3px;
+}
+
+header p {
+font-size: 18px;
+color: #ddd;
+}
+
+nav {
+background-color: #080808;
+padding: 15px;
+text-align: center;
+border-bottom: 2px solid #7b00ff;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 20px;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #c000ff;
+}
+
+main {
+max-width: 1100px;
+margin: 30px auto;
+padding: 20px;
+}
+
+section,
+article,
+aside {
+background-color: #1c1c1c;
+padding: 25px;
+margin-bottom: 25px;
+border: 1px solid #5b00a8;
+border-radius: 10px;
+}
+
+h2 {
+color: #c000ff;
+}
+
+h3 {
+color: #fff;
+}
+
+aside {
+border-left: 5px solid #c000ff;
+}
+
+footer {
+background-color: #080808;
+text-align: center;
+padding: 25px;
+margin-top: 40px;
+border-top: 2px solid #7b00ff;
+}
+
+@media (max-width: 700px) {
+
+nav a {
+display: block;
+margin: 10px;
+}
+
+header h1 {
+font-size: 36px;
+}
+
+main {
+margin: 10px;
+}
+}
+/* Contact form */
+form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+max-width: 700px;
+margin-top: 20px;
+}
+
+form label {
+color: white;
+font-weight: bold;
+}
+
+form input,
+form textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #8a2be2;
+border-radius: 10px;
+background: #111;
+color: white;
+font-size: 16px;
+box-sizing: border-box;
+}
+
+form textarea {
+min-height: 150px;
+resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+outline: none;
+border-color: #b45cff;
+box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+form button {
+width: fit-content;
+padding: 12px 25px;
+border: none;
+border-radius: 10px;
+background: #8a2be2;
+color: white;
+font-weight: bold;
+font-size: 16px;
+cursor: pointer;
+}
+
+form button:hover {
+background: #a855f7;
+}
+.hero-image img {
+width: 100%;
+max-width: 500px;
+height: auto;
+border-radius: 20px;
+display: block;
+}
+/* Homepage feature boxes */
+main > section:nth-of-type(2) {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+main > section:nth-of-type(2) > section {
+flex: 1;
+min-width: 250px;
+}
+/* Equipment table */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+border: 1px solid #8a2be2;
+padding: 12px;
+text-align: left;
+}
+
+th {
+background-color: #5b00a8;
+color: white;
+}
+
+td {
+background-color: #1c1c1c;
+}
+body {
+background-image: linear-gradient(
+rgba(10, 10, 10, 0.9),
+rgba(10, 10, 10, 0.9)
+), url("../images/dj-background.jpg");
+
+background-size: cover;
+background-attachment: fixed;
+}
+body {
+background-image: url("../images/dj-background.jpeg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.float-image {
+float: left;
+width: 400px;
+margin: 0 25px 15px 0;
+}
